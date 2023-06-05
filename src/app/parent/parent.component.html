@@ -1,0 +1,5 @@
+<p>parent works!</p>
+
+<div>
+    <app-enfant *ngFor="let personne of personnes" [personne]="personne" (supprimerPersonne)="supprimerPersonne($event)"></app-enfant>
+  </div>
